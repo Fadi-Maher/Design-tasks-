@@ -1,0 +1,120 @@
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+section.space{
+    background-image: url(./4.jpeg);
+   
+    position: relative;
+    height: 605px;
+   
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+
+.navbar {
+    display: flex;
+   
+    align-items: center;
+ 
+    color: white;
+    
+    
+}
+
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+      gap: 60px;
+      margin-left: 50%;
+     
+      
+}
+
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.navbar ul li a:hover{
+    color: blueviolet;
+    font-size: 22px;
+}
+
+div.parent{
+    display: flex;
+}
+
+
+div.content{
+   flex: 1 ;
+   text-align: center;
+   
+   margin-top: 7%;
+}
+
+.content h2{
+color: blueviolet;
+font-size: 50px;
+}
+
+.content h3{
+    color: black;
+    font-size: 50px;
+}
+
+div.btn{
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
+
+div button{
+padding: 10px;
+margin: 10px;
+background-color: whitesmoke;
+color: black;
+border: 1px solid blueviolet;
+box-shadow: 10px blueviolet;
+border-radius: 4px;
+
+}
+
+
+div button:hover{
+
+background-color: blueviolet;
+
+
+}
+
+
+div.image{
+    flex: 1;
+    position: relative;
+    
+    
+
+}
+
+.animated-img {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 3s forwards; /* 2s is the duration of the animation */
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 3;
+        transform: translateY(0);
+    }
+}
